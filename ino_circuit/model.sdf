@@ -1,19 +1,19 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
-  <model name="ai_course">
+  <model name="ino_circuit">
     <static>true</static>
     <link name="link">
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://ai_course/meshes/course.stl</uri>
+            <uri>model://ino_circuit/meshes/ino_circuit.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://ai_course/meshes/course.dae</uri>
+            <uri>model://ino_circuit/meshes/ino_circuit.dae</uri>
           </mesh>
         </geometry>
       </visual>
